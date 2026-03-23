@@ -2,12 +2,19 @@
 
 # Installation
 Download and install:
-- [Python](https://www.python.org/downloads/)
+- [Java](https://adoptium.net/temurin/releases?version=17&os=any&arch=any)
 - [VSCode](https://code.visualstudio.com/)
 
-# Run the code
+# Compile it
 - Using VSCode's built-in run
 - Using the command example:
 ```bash
-python main.py
+javac welcome_menu_screen.java
+```
+
+# Run it
+- Using VSCode's built-in run
+- Using the command example:
+```bash
+java welcome_menu_screen
 ```
