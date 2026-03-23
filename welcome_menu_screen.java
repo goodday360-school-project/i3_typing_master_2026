@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class welcome_menu_screen {
     public static void main(String[] args) {
         System.out.println("------------- Welcome to I3 Typing Master v2026 -------------");
@@ -13,7 +14,13 @@ public class welcome_menu_screen {
             System.out.print("Choose an option: - ");
             Scanner sc = new Scanner(System.in);
             int option = sc.nextInt();
-            System.out.println("Not Implemented yet.");
+            switch(option){
+                case 1:
+                    System.out.println("Login selected.");
+
+                    // Call login method here
+                    break;
+            }
         }
     }
 }
