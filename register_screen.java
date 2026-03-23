@@ -6,5 +6,6 @@ public class register_screen {
         System.out.println("confirm password: ");
         System.out.println("register or login");
         System.out.println("choose an option: - ");
+        
     }
 }
